@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background-color: rgb(49, 32, 49);
+}
+
+#connect4 {
+    background-color: blue;
+    display: inline-block;
+}
+
+.col {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+h1 {
+    color: white;
+}
+
+.col.empty {
+    cursor: pointer;
+}
+
+.next-red {
+    background-color: brown;
+}
+
+.next-black {
+    background-color: grey;
+}
+
+.col.red {
+    background-color: red;
+}
+
+.col.black {
+    background-color: black;
+}
+
+#score {
+    text-align: center;
+    margin: 10px;
+}
